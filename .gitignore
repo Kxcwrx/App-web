@@ -1,0 +1,6 @@
+#assets recursos staticos, imagenes, ficheros de audios..
+*.db
+*.py[cod]
+.web
+__pycache__/
+assets/external/
