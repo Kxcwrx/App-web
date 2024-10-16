@@ -12,20 +12,15 @@ def header() -> rx.Component:
     return rx.vstack(
         rx.hstack(
             rx.avatar(
-                name="BrayanDev", 
+                src="",
                 size="xl",
                 padding="2px",
-                src="", 
                 color=TextColor.BODY.value,
                 bg="white",
-                border="4px",
+                border="3px",
                 border_color="white"
                 ),
-
-
-
             rx.vstack(
-
                 rx.heading(
                     "Brayan Zapata", 
                     size="lg",

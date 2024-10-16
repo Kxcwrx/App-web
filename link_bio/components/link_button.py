@@ -4,20 +4,17 @@ from link_bio.styles.colors import TextColor as TextColor
 from link_bio.styles.styles import Size as Size
 
 
-def link_button(title: str, body: str, image: str, url: str, ) -> rx.Component:
+def link_button(title: str, body: str, url: str, ) -> rx.Component:
     return rx.link(
         rx.button(
             rx.hstack(
-                rx.grid(
-                    rx.avatar(
-                        src="",
-                        width=Size.BIG.value,
-                        height=Size.BIG.value,
-                        margin=Size.MEDIUM.value,
-                        bg="white",
-                        border="4px",
-                        border_color="white",
-                    ),
+                rx.image(
+                    width=Size.BIG.value,
+                    height=Size.BIG.value,
+                    margin=Size.MEDIUM.value,
+                    bg="white",
+                    border="4px",
+                    border_color="white",
                 ),
                 rx.vstack(
                     rx.text(

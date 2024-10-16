@@ -43,7 +43,7 @@ app.add_page(
     index, 
     title="Brayandev",
     description="Hi, I'm Brayan. Software Developer",
-    image="/public/avatar.jpg",
+    image="",
     route="/")
 
 app.add_page(
